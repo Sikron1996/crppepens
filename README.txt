@@ -1,0 +1,1 @@
+Insert contract address in app.js: const CONTRACT_ADDRESS = "0x...";
