@@ -4,7 +4,7 @@ import EthereumProvider from "https://esm.sh/@walletconnect/ethereum-provider@2.
 /*
   INSERT CONTRACT ADDRESS HERE
 */
-const CONTRACT_ADDRESS = "PASTE_CONTRACT_ADDRESS_HERE";
+const CONTRACT_ADDRESS = "0xc711A8e1d094d4870f2a26C03d80F704F037F7A5";
 
 const PROJECT_ID = "fe55ea601c3e7e0925c0b33723d6b158";
 const READ_RPC = "https://ethereum.publicnode.com";
