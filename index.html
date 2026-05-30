@@ -1,0 +1,40 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CryptoPepenks</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="grid-bg"></div>
+<main class="page">
+<header class="nav">
+  <div class="brand"><div class="brand-icon">P</div><div>CRYPTOPEPENKS<br><span>ON CHAIN</span></div></div>
+  <nav><a>⌂ HOME</a><a>☯ DISCORD</a><a>♥ TWITTER</a></nav>
+  <button id="connectTop">CONNECT WALLET</button>
+</header>
+
+<section class="banner">
+  <div class="banner-art"><img src="assets/pepe1.jpg"><img src="assets/pepe2.jpg"><img src="assets/pepe3.jpg"></div>
+  <div class="banner-title">
+    <div><span class="green">CRYPTO</span> <span class="lime">PEPENKS</span></div>
+    <div><span class="lime">THE</span> <span class="blue">PUNKEST</span></div>
+    <div><span class="lime">PEPES</span> <span class="lime">ON</span> <span class="green">CHAIN</span></div>
+  </div>
+</section>
+
+<div class="ribbon"><div class="ribbon-line"></div><div class="ribbon-text"><span>● CRYPTOPEPENKS</span><span>● CRYPTOPEPENKS</span><span>● CRYPTOPEPENKS</span></div></div>
+
+<section class="mint-scene">
+  <img class="bubble b1" src="assets/pepe4.jpg"><img class="bubble b2" src="assets/pepe5.jpg"><img class="bubble b3" src="assets/pepe6.jpg"><img class="bubble b4" src="assets/pepe1.jpg">
+  <div class="mint-panel">
+    <h1>PRESALE</h1><p>Mint your CryptoPepenks</p>
+    <div class="price-label">PRICE</div><div class="price">0.0001 ETH</div>
+    <div class="supply"><span id="mintedText">0</span> / 10,000 minted</div>
+    <div class="counter"><button id="minus">−</button><input id="amount" value="1"><button id="plus">+</button></div>
+    <div class="total">TOTAL: <b id="totalPrice">0.0001 ETH</b></div>
+    <button id="connectBtn" class="mint-btn">CONNECT WALLET</button>
+    <button id="mintBtn" class="mint-btn hiddenBtn">MINT</button>
+    <p id="wallet">not connected</p><p id="status">Insert contract address in app.js</p>
+  </div>
+</section>
+</main>
+<div id="walletModal" class="modal hidden"><div class="modal-card"><button id="closeModalBtn" class="close">×</button><h2>CONNECT WALLET</h2><button id="browserWalletBtn">MetaMask / Rabby / OKX</button><button id="walletConnectBtn">WalletConnect / Mobile</button></div></div>
+<script type="module" src="app.js"></script>
+</body></html>
